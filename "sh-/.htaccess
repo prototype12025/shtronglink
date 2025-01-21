@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/old-page$
+RewriteRule ^(.*)$ https://www.example.com/ [R=301,L]
